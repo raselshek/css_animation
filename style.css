@@ -1,0 +1,80 @@
+/*-----------------box 1------------*/
+.box1{
+	width:300px;
+	height: 300px;
+	float: left;
+	background-color: red;
+	animation-name: test1;
+	-webkit-animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: 20px 20px 42px #0078D7;
+	margin-left: 30px;
+
+
+}
+@keyframes test1{
+	0%{background-color: red;}
+	20%{background-color: green;}
+	50%{background-color: aqua;}
+	80%{background-color: pink;}
+	100%{background-color: aqua;}
+}
+.box_mini{
+	width:100px;
+	height: 100px;
+	float: left;
+	background-color: orange;
+	position: relative;
+	-webkit-animation-name: test_mini;
+	-webkit-animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: 5px 10px 20px red inset;
+	box-shadow: 5px 5px 15px blue, 10px 10px 15px red, 15px 15px 15px green;
+}
+@keyframes test_mini{
+	0%{background-color: pink;left:0px; top: 0px;}
+	20%{background-color: aqua;left:160px; top: 0px;}
+	50%{background-color: yellow;left:160px; top: 160px;}
+	80%{background-color: green;left:0px; top: 160px;}
+	100%{background-color: red;left:0px; top:0px;}
+}
+/*-----------------box 2------------*/
+.box2{
+	width:300px;
+	height: 300px;
+	float: left;
+	margin-left: 30px;
+	background-color: orange;
+	-webkit-animation-name: test2;
+	-webkit-animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: 20px 20px 42px #00BEBB;
+
+}
+@keyframes test2{
+	0%{background-color: green;}
+	20%{background-color: red;}
+	50%{background-color: aqua;}
+	80%{background-color: yellow;}
+	100%{background-color: green;}
+}
+.box_mini2{
+	width:140px;
+	height: 140px;
+	float: left;
+	background-color: orange;
+	position: relative;
+	-webkit-animation-name: test_mini2;
+	-webkit-animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	box-shadow: 5px 10px 20px white inset;
+}
+@keyframes test_mini2{
+	0%{background-color: pink;left:0px; top: 0px;}
+	20%{background-color: aqua;left:160px; top: 0px;}
+	50%{background-color: yellow;left:160px; top: 160px;}
+	80%{background-color: green;left:0px; top: 160px;}
+	100%{background-color: red;left:0px; top:0px;}
+}
+/*-----------------box 3------------*/
